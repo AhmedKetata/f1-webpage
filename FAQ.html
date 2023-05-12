@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>FAQs</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style type="text/css">
+      body{
+        background: #eee;
+        padding-top: 20px;
+        font-family: monospace;
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: rgb(105, 0, 0);
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      .faq-body{
+        display: none;
+        margin-top: 30px;
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: aliceblue;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+      nav {
+    background-color: rgb(105, 0, 0);
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+				<li><a href="formula.html">Home</a></li>
+				<li><a href="Drivers.html">Drivers</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="login.html">login</a></li>
+				<li><a href="signup.html">sign up</a></li>
+				<li><a href="FAQ.html">About</a></li>
+        <li><a href="formulae.html">Formula E</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h3>
+                The F1® Ticket Store
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                The F1® Ticket Store is operated by Platinium Group S.A.M.
+
+For customer service enquiries call +44 20 3984 9372, email ticketstore@formula1.com
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                The F1® Store
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                This is operated under licence by Fanatics (International) Ltd.
+
+Contacting Us by Email - customerservices@f1store.formula1.com Contacting Us by Phone - +44 333 014 4538
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                F1® Experiences
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                F1® Experiences is operated by QuintEvents, LLC.
+
+For customer service or booking enquires call +1 888 326 5430, email info@f1experiences.com
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Media accreditation
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Members of the media wishing to obtain accreditation for Grands Prix should consult the official FIA website at www.fia.com
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Investors
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Formula 1 is a subsidiary of Liberty Media Corporation (NASDAQ: LSXMA, LSXMB, LSXMK, BATRA, BATRK, FWONA, FWONK) attributed to the Formula One Group tracking stock.
+
+For investor inquiries relating to Liberty Media Corporation or the Formula One Group stock, please contact Investor Relations:
+
+Phone: +1 (877) 772-1518
+
+Email: investor@libertymedia.com
+
+www.libertymedia.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+      });
+    </script>
+  
+
+  </body>
+
+</html>
